@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.maindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    height: 100vh;
+}
+.signin{
+    border: 1px solid rgb(180, 143, 143);
+    width:260px;
+    height: 250px;
+    padding: 20px;
+    border-radius: 40px;
+    background-color: white;
+    transition-duration: 2s;
+    animation-name: ro;
+    transform-origin: right;
+    animation: happybirthdayvishnu 1s ease-out,happybirthdayvishnu2 1s ease-out; 
+}
+@keyframes happybirthdayvishnu {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+@keyframes happybirthdayvishnu2{
+    from{
+        transform: translate(-50px);
+    }
+    to{
+        transform: translate(0px);
+    }
+}
+.signin:hover{
+    transform: scale(1.2);
+}
+h2,a,input,.p1,.p2{
+    margin-bottom: 10px;
+}
+input{
+    width: 260px;
+    height: 30px;
+    border-radius: 5px;
+    height: 25px;
+    border:1px solid black;
+}
+label{
+    margin-bottom: 20px;
+}
+h2{
+    margin-left: 100px;
+}
+span{
+    color: red;
+}
+.p1,.p2{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+.p2{
+    margin-left: 60px;
+}
+.p3{
+    margin-left:100px;
+    padding: 7px;
+    border: 1px solid black;
+    text-decoration: none;
+    color:black;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+@keyframes ro {
+    0%{
+        right: 800px;
+    }
+    100%{
+        left: 400px;
+    }
+}

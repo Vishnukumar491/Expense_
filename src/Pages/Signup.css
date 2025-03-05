@@ -1,0 +1,14 @@
+.up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 299px;
+}
+.p5{
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    margin-left: 100px;
+    border-radius: 4px;
+    padding: 5px;
+}

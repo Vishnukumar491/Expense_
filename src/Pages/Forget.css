@@ -1,0 +1,40 @@
+#send{
+    cursor: disabled;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#otp{
+    color: rgb(139, 244, 139);
+}
+.Forget{
+    border: 1px solid black;
+    margin-top: 300px;
+    padding: 19px;
+    border-radius: 4px;
+}
+.forget-head{
+    padding: 0;
+    margin: 0;
+    margin-left: 50px;
+}
+#send{
+    width: 100px;
+    padding: 3px;
+    border-radius: 4px;
+}
+.forget-button{
+    border: 1px solid black;
+    padding: 2px;
+    text-decoration: none;
+    color: black;
+    width: 100px;
+    margin-left: 140px;
+}
